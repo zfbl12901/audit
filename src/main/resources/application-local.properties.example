@@ -1,0 +1,17 @@
+# Copier ce fichier en application-local.properties et renseigner vos accès.
+# application-local.properties est ignoré par Git (ne pas committer les mots de passe).
+
+# Base TEST
+audit.test-db.jdbc-url=jdbc:oracle:thin:@test-host:1521/TESTDB
+audit.test-db.username=test_user
+audit.test-db.password=changeme
+audit.test-db.schema=APP_SCHEMA
+
+# Base DEV
+audit.dev-db.jdbc-url=jdbc:oracle:thin:@dev-host:1521/DEVDB
+audit.dev-db.username=dev_user
+audit.dev-db.password=changeme
+audit.dev-db.schema=APP_SCHEMA
+
+# Tables à analyser (séparées par des virgules)
+audit.table-names=UTILISATEUR, COMMANDE, ADRESSE, PAIEMENT
