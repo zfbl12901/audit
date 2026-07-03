@@ -15,3 +15,25 @@ audit.dev-db.schema=APP_SCHEMA
 
 # Tables à analyser (séparées par des virgules)
 audit.table-names=UTILISATEUR, COMMANDE, ADRESSE, PAIEMENT
+
+# --- Module refresh repository npm (repo.enabled=true) ---
+# repo.enabled=true
+# repo.default-branch=main
+# repo.lock-file-name=package-lock.json
+# repo.protected-keywords=eisec,fwk
+#
+# repo.gitlab.base-url=https://gitlab.example.com
+# repo.gitlab.token=glpat-xxxxxxxx
+# repo.gitlab.group-id=123
+# repo.gitlab.angular-topic=angular
+# repo.gitlab.include-subgroups=true
+#
+# repo.internal-npm.base-url=https://nexus.example.com
+# repo.internal-npm.username=nexus-user
+# repo.internal-npm.password=changeme
+# repo.internal-npm.repository-name=internal-npm
+#
+# repo.external-npm.base-url=https://nexus.example.com/repository/external-npm
+# repo.external-npm.username=nexus-user
+# repo.external-npm.password=changeme
+# repo.external-npm.repository-name=external-npm
